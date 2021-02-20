@@ -5,3 +5,5 @@ Mi primer login con validacion
 
 
 ![alt text](https://github.com/Steff10740/Login_Xamarin/blob/main/Reg_F.JPG)
+
+![alt text](https://github.com/Steff10740/Login_Xamarin/blob/main/MasterDetail.JPG)
