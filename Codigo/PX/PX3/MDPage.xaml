@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PX3.MDPage"
+             >
+
+    <MasterDetailPage.Master>
+    <ContentPage Title="Back">
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Padding="10" Spacing="15" >
+            <Label Text="Home" TextColor="Yellow"/>
+                <Label Text="Opcion 1" TextColor="Yellow"/>
+                <Label Text="Opcion 2" TextColor="Yellow"/>
+        </StackLayout>
+    </ContentPage>
+  </MasterDetailPage.Master>
+    
+  <MasterDetailPage.Detail>
+    <NavigationPage>
+      <x:Arguments>
+                <ContentPage Title="Master Detail Page"  >
+                    <Label Text="Esto es un Master Detail Page" 
+                           TextColor="Red" 
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="Center"
+                           FontSize="Title"
+                           />
+                    
+                </ContentPage>
+      </x:Arguments>
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>
